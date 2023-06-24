@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../images/WhatsApp\ Image\ 2022-12-22\ at\ 10.04.00\ AM.jpeg);
+    background-repeat : no-repeat ;
+    background-size:cover;
+    overflow-y: scroll;
+}
+form{ 
+    margin: auto;
+    width: 70%;
+    min-height: 102vh;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color:rgba(0,0,0,0.6);
+}
+h1{
+    padding: 10px;
+    font-size:40px;
+    text-align:center;
+    color:#fff;
+}
+label{
+    margin-left: 50px;
+    color:#fcfcfc;
+    font-size: 20px;
+}
+input{
+    padding: 5px;
+    margin-left:  20px ;
+    border: none; 
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color:rgba(0,0,0,0.8);
+}
+.btn{   
+    color: rgb(247, 247, 247);
+    background-color: rgba(92, 13, 13,0.8);
+    font-size: larger;
+    height: 40px;
+    width: 150px;
+}
+.lo{
+    width: 80%;
+    height: 50px;
+}
+table{
+    border-spacing: 20px;
+}

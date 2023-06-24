@@ -1,0 +1,62 @@
+body {
+    background :url(../images/skyline-image.jpg);
+    background-size:cover; 
+    overflow: hidden;
+    height: 100vh;
+}
+form{
+
+    width: 400px;
+    height: 380px;
+    background:rgba(0,0,0,.3);
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+
+    }
+h2 {
+    color:#fff;
+    padding: 30px;
+    text-align: center;
+}
+
+.cont{
+    margin: 30px;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+
+input {
+    width: 90%;
+    border: none;
+    color: white;
+    border-bottom: 1px solid;
+    outline: none;
+    background: none;
+}
+::placeholder {
+    color: #bfbfbf;
+}
+a {
+    margin-left: 20px;
+    color: #fff;
+}
+a:hover{
+    color:#0094ff; 
+
+}
+input[type="submit"]{
+    width: 90%;
+    height: 50px;
+    border: none;
+    margin-bottom: 20px;
+    background:#000000;
+    border-radius: 25px;
+    margin-left: 17PX;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+}
